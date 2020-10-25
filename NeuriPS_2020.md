@@ -1,6 +1,7 @@
 FedSplit: an algorithmic framework for fast federated optimization
 Reese Pathak (University of California, Berkeley) · Martin Wainwright (UC Berkeley)
 12:18
+
 Network Pruning via Greedy Optimization: Fast Rate and Efficient Algorithms
 Mao Ye (The University of Texas at Austin) · Lemeng Wu (UT Austin) · Qiang Liu (UT Austin)
 12:20
@@ -9,7 +10,8 @@ https://neurips.cc/Conferences/2020/AcceptedPapersInitial searched “optimizati
 neurips.cc
 Accepted Papers
 NeurIPS Website
-12:22
+
+
 The Generalization-Stability Tradeoff In Neural Network Pruning
 Brian Bartoldson (Lawrence Livermore National Laboratory) · Ari Morcos (Facebook AI Research) · Adrian Barbu (Florida State University, USA) · Gordon Erlebacher (Florida State University)
 12:25
