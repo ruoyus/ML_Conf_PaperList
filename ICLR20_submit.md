@@ -226,3 +226,109 @@ fancy math系列, tropical topology for LTH
 
 https://openreview.net/pdf?id=SkliR1SKDS   
 RETHINKING DATA AUGMENTATION: SELF-SUPERVISION AND SELF-DISTILLATION
+
+
+%-------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------
+LESS CLEAR about quality:
+  https://openreview.net/pdf?id=H1lDSCEYPH 
+   https://openreview.net/pdf?id=ryx4TlHKDS 
+2nd order methods
+https://openreview.net/pdf?id=ByeUBANtvB 
+解决credit assignment problem
+
+https://openreview.net/pdf?id=Sklw_kHtPH 
+AdamT
+
+https://openreview.net/pdf?id=ryxGuJrFvS
+ DRO network
+
+https://openreview.net/pdf?id=Hygq3JrtwS
+overpara generalization and sensity, 实验文章
+
+https://openreview.net/pdf?id=BJg641BKPH
+又一个分析两层网络的收敛性的文章，less paramters.
+
+https://openreview.net/pdf?id=BygIjTNtPr
+又一个分析min-max的ODE的文章
+
+https://openreview.net/pdf?id=r1e_FpNFDr
+generalization bound of CNN
+
+https://openreview.net/pdf?id=rkgPnhNFPB
+GAN and random matrix
+
+https://openreview.net/pdf?id=Bylx-TNKvH
+ReLU networks
+
+https://openreview.net/pdf?id=rkllGyBFPH
+NTK的推广
+
+https://openreview.net/pdf?id=rJxyqkSYDH
+dynamic rate tuning
+
+https://openreview.net/pdf?id=Sye2c3NYDB
+LTH的推广
+
+https://openreview.net/pdf?id=Ske9VANKDH
+写得有点rough; optimization for DL
+
+https://openreview.net/pdf?id=H1ebhnEYDH
+related to neurosci; spike, bias of network
+
+https://openreview.net/pdf?id=BJlRs34Fvr
+skip-connections are bad for robustness
+
+https://openreview.net/pdf?id=HJeTo2VFwH
+A SIGNAL PROPAGATION PERSPECTIVE FOR PRUNING NEURAL NETWORKS AT INITIALIZATION
+
+https://openreview.net/pdf?id=rJg8NertPr
+TOP-DOWN TRAINING FOR NEURAL NETWORKS
+略神奇。固定最后一层的classifier, 再重新训练前面的层.
+
+https://openreview.net/pdf?id=HJxaC1rKDS
+略神奇. 用adversarial examples当做真正的samples来帮助训练缺乏数据的class (imbalanced classification)
+
+https://openreview.net/pdf?id=BJx040EFvH
+faster adversarial training
+
+https://openreview.net/pdf?id=rkgqN1SYvr
+PROVABLE BENEFIT OF ORTHOGONAL INITIALIZATION IN OPTIMIZING DEEP LINEAR NETWORKS
+需要知道的结果
+
+https://openreview.net/pdf?id=HyxehhNtvS
+WHY LEARNING OF LARGE-SCALE NEURAL NETWORKS BEHAVES LIKE CONVEX OPTIMIZATION
+Hui Jiang
+
+https://openreview.net/pdf?id=BJeS62EtwH
+KNOWLEDGE CONSISTENCY BETWEEN NEURAL NETWORKS AND BEYOND
+
+https://openreview.net/pdf?id=HyetFnEFDS
+DIVING INTO OPTIMIZATION OF TOPOLOGY IN NEURAL NETWORKS
+
+https://openreview.net/pdf?id=BkxFi2VYvS
+半监督for semantic segmentation
+
+https://openreview.net/pdf?id=Bke8UR4FPB
+ReLU network and decision trees是等价的
+
+https://openreview.net/pdf?id=rJg8TeSFDH
+AN EXPONENTIAL LEARNING RATE SCHEDULE FOR BATCH NORMALIZED NETWORKS
+
+https://openreview.net/pdf?id=Skgvy64tvr
+new activation for robustness
+
+https://openreview.net/pdf?id=rJe1DTNYPH
+分解robust and non-robust component
+
+https://openreview.net/pdf?id=SygRikHtvS
+coreset selection for incremental gradient; 一个选取数据集的方式来配合优化
+
+https://openreview.net/pdf?id=S1xGCAVKvr
+learning to learn的进展，可以收敛了
+
+https://openreview.net/pdf?id=HkeZQJBKDB
+universal approximation for permutation-invariant functions
+
+https://openreview.net/pdf?id=SygW0TEFwH
+sign bits are all you need for black-box attacks
