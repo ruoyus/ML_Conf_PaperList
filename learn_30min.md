@@ -6,6 +6,9 @@ https://proceedings.neurips.cc/paper/2017/file/7c82fab8c8f89124e2ce92984e04fb40-
 Coin betting for SGD learning rate picking. 
 Orabona advocates this work; gave a tutorial on ICML 2020 or so. 
 
+http://www.cmap.polytechnique.fr/~akian/publis/akian_quadrat_viot_98.pdf
+Duality between Probability and Optimization  (someone in Quora recommended)
+
 ### Generic deep learning practice
 https://github.com/facebookresearch/FixRes. FixRes, can improve ImageNet score by 2 point immediately. 
 
