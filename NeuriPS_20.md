@@ -1,3 +1,22 @@
+### NeurIPS'20 Oral
+
+On the training dynamics of deep networks with L2 regularization  
+Aitor Lewkowycz (Google) · Guy Gur-Ari (Google)  
+Link: https://arxiv.org/abs/2006.08643
+
+Ultra-Low Precision 4-bit Training of Deep Neural Networks  
+Xiao Sun (IBM) · Naigang Wang (IBM) · Chia-Yu Chen (IBM) · Jia-min Ni (IBM) · Ankur Agrawal (IBM) · Xiaodong Cui (IBM) · Swagath Venkataramani (IBM) · Kaoutar El Maghraoui (IBM) · Vijayalakshmi Srinivasan (IBM) · Kailash Gopalakrishnan (IBM)  
+Link: https://papers.nips.cc/paper/2020/hash/13b919438259814cd5be8cb45877d577-Abstract.html
+
+Acceleration with a Ball Optimization Oracle  
+Yair Carmon (Stanford) · Arun Jambulapati (Stanford) · Qijia Jiang (Stanford) · Yujia Jin (Stanford) · Yin Tat Lee (University of Washington) · Aaron Sidford (Stanford) · Kevin Tian (Stanford)  
+Link: https://arxiv.org/abs/2003.08078
+
+Convex optimization based on global lower second-order models  
+Nikita Doikov (Catholic University of Louvain) · Yurii Nesterov (Catholic University of Louvain)  
+Link: https://arxiv.org/abs/2006.08518
+
+### Other papers (to be organized)
 FedSplit: an algorithmic framework for fast federated optimization
 Reese Pathak (University of California, Berkeley) · Martin Wainwright (UC Berkeley)
 12:18
