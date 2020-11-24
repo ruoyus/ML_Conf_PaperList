@@ -16,6 +16,18 @@ Convex optimization based on global lower second-order models
 Nikita Doikov (Catholic University of Louvain) · Yurii Nesterov (Catholic University of Louvain)  
 Link: https://arxiv.org/abs/2006.08518
 
+
+
+[A Group-Theoretic Framework for Data Augmentation](https://arxiv.org/pdf/1907.10905.pdf)
+Shuxiao Chen, Edgar Dobriban, Jane H Lee
+
+
+
+[Is normalization indispensable for training deep neural networks?](https://papers.nips.cc/paper/2020/file/9b8619251a19057cff70779273e95aa6-Paper.pdf)
+Jie Shao · Kai Hu · Changhu Wang · Xiangyang Xue · Bhiksha Raj
+
+
+
 ### Other papers (to be organized)
 FedSplit: an algorithmic framework for fast federated optimization
 Reese Pathak (University of California, Berkeley) · Martin Wainwright (UC Berkeley)
