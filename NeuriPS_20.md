@@ -1,3 +1,13 @@
+### NeurIPS'20 Tutorials
+Tutorial: (Track1) There and Back Again: A Tale of Slopes and Expectations
+  We discuss backpropagation in three settings: in probabilistic graphical models, through an equality constraint, and with an inequality constraint. To complete the round-trip, we explore algorithms for calculating gradients of expectations, the basis of methods for variational inference, reinforcement learning, and experimental design.
+  https://neurips.cc/virtual/2020/public/tutorial_880c6de112a048b0fc4ddb0a8b513e17.html  
+
+Tutorial: (Track2) Equivariant Networks
+It has become clear that in all of these cases and more, equivariance to symmetry transformations is the key principle that points us to an effective generalization. New architectures inspired by this principle have already proved their effectiveness in multiple domains.
+https://neurips.cc/virtual/2020/public/tutorial_3e267ff3c8b6621e5ad4d0f26142892b.html
+
+
 ### NeurIPS'20 Oral
 
 On the training dynamics of deep networks with L2 regularization  
