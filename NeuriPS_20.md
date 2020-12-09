@@ -49,6 +49,12 @@ Nasir Ahmad, Marcel A. J. van Gerven, Luca Ambrogioni
 Traditional backpropagation of error, though a highly successful algorithm for learning in artificial neural network models, includes features which are biologically implausible for learning in real neural circuits. An alternative called target propagation proposes to solve this implausibility by using a top-down model of neural activity to convert an error at the output of a neural network into layer-wise and plausible ‘targets’ for every unit. These targets can then be used to produce weight updates for network training. However, thus far, target propagation has been heuristically proposed without demonstrable equivalence to backpropagation. Here, we derive an exact correspondence between backpropagation and a modified form of target propagation (GAIT-prop) where the target is a small perturbation of the forward pass. Specifically, backpropagation and GAIT-prop give identical updates when synaptic weight matrices are orthogonal. In a series of simple computer vision experiments, we show near-identical performance between backpropagation and GAIT-prop with a soft orthogonality-inducing regularizer.
 想法: 对target prop (ADMM)做 spectrum control; maybe worth a paper. 
 
+10:15 – 10:30 CST
+2 - Oral: Pixel-Level Cycle Association: A New Perspective for Domain Adaptive Semantic Segmentation
+Guoliang Kang, Yunchao Wei, Yi Yang, Yueting Zhuang, Alexander Hauptmann
+Domain adaptive semantic segmentation aims to train a model performing satisfactory pixel-level predictions on the target with only out-of-domain (source) annotations. 
+想法：能否分析landcape或优化性质？(Yi Yang是以前百度的研究员)
+
 
 ### NeurIPS'20 Spotlight
 
