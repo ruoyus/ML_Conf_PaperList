@@ -38,6 +38,11 @@ Consider an oracle which takes a point x and returns the minimizer of a convex f
 3 - Oral: Training Generative Adversarial Networks with Limited Data
 Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo Aila
 
+10:00 – 10:15 CST
+1 - Oral: Implicit Neural Representations with Periodic Activation Functions
+We analyze SIREN activation statistics to propose a principled initialization scheme and demonstrate the representation of images, wavefields, video, sound, and their derivatives.
+
+
 23:10 – 23:20 CST
 6 - Spotlight: GAIT-prop: A biologically plausible learning rule derived from backpropagation of error
 Nasir Ahmad, Marcel A. J. van Gerven, Luca Ambrogioni
