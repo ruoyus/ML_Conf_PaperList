@@ -55,6 +55,12 @@ Guoliang Kang, Yunchao Wei, Yi Yang, Yueting Zhuang, Alexander Hauptmann
 Domain adaptive semantic segmentation aims to train a model performing satisfactory pixel-level predictions on the target with only out-of-domain (source) annotations. 
 想法：能否分析landcape或优化性质？(Yi Yang是以前百度的研究员)
 
+10:30 – 10:45 CST
+3 - Oral: Coupling-based Invertible Neural Networks Are Universal Diffeomorphism Approximators
+Takeshi Teshima, Isao Ishikawa, Koichi Tojo, Kenta Oono, Masahiro Ikeda, Masashi Sugiyama
+Invertible neural networks based on coupling flows (CF-INNs) have various machine learning applications such as image synthesis and representation learning. However, their desirable characteristics such as analytic invertibility come at the cost of restricting the functional forms. This poses a question on their representation power: are CF-INNs universal approximators for invertible functions? Without a universality, there could be a well-behaved invertible transformation that the CF-INN can never approximate, hence it would render the model class unreliable. We answer this question by showing a convenient criterion: a CF-INN is universal if its layers contain affine coupling and invertible linear functions as special cases. As its corollary, we can affirmatively resolve a previously unsolved problem: whether normalizing flow models based on affine coupling can be universal distributional approximators. In the course of proving the universality, we prove a general theorem to show the equivalence of the universality for certain diffeomorphism classes, a theoretical insight that is of interest by itself.
+  **这个文章讨论了流行的normalizing flow和invertible network; 值得一读。或许和landcape以及preconditioning layer有着深刻的联系。**
+
 
 ### NeurIPS'20 Spotlight
 
