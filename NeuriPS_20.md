@@ -17,16 +17,32 @@ Nikita Doikov (Catholic University of Louvain) · Yurii Nesterov (Catholic Unive
 Link: https://arxiv.org/abs/2006.08518
 
 
-
 [A Group-Theoretic Framework for Data Augmentation](https://arxiv.org/pdf/1907.10905.pdf)
 Shuxiao Chen, Edgar Dobriban, Jane H Lee
-
-
 
 [Is normalization indispensable for training deep neural networks?](https://papers.nips.cc/paper/2020/file/9b8619251a19057cff70779273e95aa6-Paper.pdf)
 Jie Shao · Kai Hu · Changhu Wang · Xiangyang Xue · Bhiksha Raj
 
+Wed
+22:15 – 22:30 CST
+2 - Oral: Entropic Optimal Transport between Unbalanced Gaussian Measures has a Closed Form
+Hicham Janati, Boris Muzellec, Gabriel Peyré, Marco Cuturi
 
+22:30 – 22:45 CST
+3 - Oral: Acceleration with a Ball Optimization Oracle
+Yair Carmon, Arun Jambulapati, Qijia Jiang, Yujia Jin, Yin Tat Lee, Aaron Sidford, Kevin Tian
+Consider an oracle which takes a point x and returns the minimizer of a convex function f in an l_2 ball of radius r around x.
+
+
+22:30 – 22:45 CST
+3 - Oral: Training Generative Adversarial Networks with Limited Data
+Tero Karras, Miika Aittala, Janne Hellsten, Samuli Laine, Jaakko Lehtinen, Timo Aila
+
+23:10 – 23:20 CST
+6 - Spotlight: GAIT-prop: A biologically plausible learning rule derived from backpropagation of error
+Nasir Ahmad, Marcel A. J. van Gerven, Luca Ambrogioni
+Traditional backpropagation of error, though a highly successful algorithm for learning in artificial neural network models, includes features which are biologically implausible for learning in real neural circuits. An alternative called target propagation proposes to solve this implausibility by using a top-down model of neural activity to convert an error at the output of a neural network into layer-wise and plausible ‘targets’ for every unit. These targets can then be used to produce weight updates for network training. However, thus far, target propagation has been heuristically proposed without demonstrable equivalence to backpropagation. Here, we derive an exact correspondence between backpropagation and a modified form of target propagation (GAIT-prop) where the target is a small perturbation of the forward pass. Specifically, backpropagation and GAIT-prop give identical updates when synaptic weight matrices are orthogonal. In a series of simple computer vision experiments, we show near-identical performance between backpropagation and GAIT-prop with a soft orthogonality-inducing regularizer.
+想法: 对target prop (ADMM)做 spectrum control; maybe worth a paper. 
 
 
 ### NeurIPS'20 Spotlight
@@ -45,6 +61,32 @@ We consider the development of practical stochastic quasi-Newton, and in particu
 8 - Spotlight: On the linearity of large non-linear models: when and why the tangent kernel is constant
 Chaoyue Liu, Libin Zhu, Misha Belkin
 The goal of this work is to shed light on the remarkable phenomenon of "transition to linearity" of certain neural networks as their width approaches infinity. We show that the "transition to linearity'' of the model and, equivalently, constancy of the (neural) tangent kernel (NTK) result from the scaling properties of the norm of the Hessian matrix of the network as a function of the network width. We present a general framework for understanding the constancy of the tangent kernel via Hessian scaling applicable to the standard classes of neural networks. Our analysis provides a new perspective on the phenomenon of constant tangent kernel, which is different from the widely accepted "lazy training''. Furthermore, we show that the "transition to linearity" is not a general property of wide neural networks and does not hold when the last layer of the network is non-linear. It is also not necessary for successful optimization by gradient descent.
+
+Wed, Dec 9th @ 23:50 CST – Thu, Dec 10th @ 00:00 CST
+10 - Spotlight: Implicit Bias in Deep Linear Classification: Initialization Scale vs Training Accuracy
+Edward Moroshko, Blake Woodworth, Suriya Gunasekar, Jason Lee, Nati Srebro, Daniel Soudry
+We provide a detailed asymptotic study of gradient flow trajectories and their implicit optimization bias when minimizing the exponential loss over "diagonal linear networks". This is the simplest model displaying a transition between "kernel" and non-kernel ("rich" or "active") regimes. We show how the transition is controlled by the relationship between the initialization scale and how accurately we minimize the training loss. Our results indicate that some limit behavior of gradient descent only kick in at ridiculous training accuracies (well beyond 10^-100). Moreover, the implicit bias at reasonable initialization scales and training accuracies is more complex and not captured by these limits.
+
+23:20 – 23:30 CST
+7 - Spotlight: IDEAL: Inexact DEcentralized Accelerated Augmented Lagrangian Method
+Yossi Arjevani, Joan Bruna, Bugra Can, Mert Gurbuzbalaban, Stefanie Jegelka, Hongzhou Lin
+We introduce a framework for designing primal methods under the decentralized optimization setting where local functions are smooth and strongly convex. Our approach consists of approximately solving a sequence of sub-problems induced by the accelerated augmented Lagrangian method, thereby providing a systematic way for deriving several well-known decentralized algorithms including EXTRA and SSDA. When coupled with accelerated gradient descent, our framework yields a novel primal algorithm whose convergence rate is optimal and matched by recently derived lower bounds. We provide experimental results that demonstrate the effectiveness of the proposed algorithm on highly ill-conditioned problems.
+
+00:20 – 00:30 CST
+13 - Spotlight: Linearly Converging Error Compensated SGD
+Eduard Gorbunov, Dmitry Kovalev, Dmitry Makarenko, Peter Richtarik
+In this paper, we propose a unified analysis of variants of distributed SGD with arbitrary compressions and delayed updates. Our framework is general enough to cover different variants of quantized SGD, Error-Compensated SGD (EC-SGD), and SGD with delayed updates (D-SGD). Via single theorem, we derive the complexity results for all the methods that fit our framework. For the existing methods, this theorem gives the best-known complexity results. Moreover, using our general scheme, we develop new variants of SGD that combine variance reduction or arbitrary sampling with error feedback and quantization and derive the convergence rates for these methods beating the state-of-the-art results. In order to illustrate the strength of our framework, we develop 16 new methods that fit this. In particular, we propose the first method called EC-SGD-DIANA that is based on error-feedback for biased compression operator and quantization of gradient differences and prove the convergence guarantees showing that EC-SGD-DIANA converges to the exact optimum asymptotically in expectation with constant learning rate for both convex and strongly convex objectives when workers compute full gradients of their loss functions. Moreover, for the case when the loss function of the worker has the form of finite sum, we modified the method and got a new one called EC-LSVRG-DIANA which is the first distributed stochastic method with error feedback and variance reduction that converges to the exact optimum asymptotically in expectation with constant learning rate.
+
+
+23:20 – 23:30 CST
+7 - Spotlight: Adversarial Training is a Form of Data-dependent Operator Norm Regularization
+Kevin Roth, Yannic Kilcher, Thomas Hofmann
+We establish a theoretical link between adversarial training and operator norm regularization for deep neural networks. Specifically, we prove that $l_p$-norm constrained projected gradient ascent based adversarial training with an $l_q$-norm loss on the logits of clean and perturbed inputs is equivalent to data-dependent (p, q) operator norm regularization. This fundamental connection confirms the long-standing argument that a network’s sensitivity to adversarial examples is tied to its spectral properties and hints at novel ways to robustify and defend against adversarial attacks. We provide extensive empirical evidence on state-of-the-art network architectures to support our theoretical results.
+
+00:30 – 00:40 CST
+14 - Spotlight: Understanding Gradient Clipping in Private SGD: A Geometric Perspective
+Xiangyi Chen, Steven Wu, Mingyi Hong
+
 
 
 ### Other papers (to be organized)
