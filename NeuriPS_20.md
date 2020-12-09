@@ -87,7 +87,10 @@ We establish a theoretical link between adversarial training and operator norm r
 14 - Spotlight: Understanding Gradient Clipping in Private SGD: A Geometric Perspective
 Xiangyi Chen, Steven Wu, Mingyi Hong
 
-
+00:00 – 00:10 CST
+11 - Spotlight: ExpandNets: Linear Over-parameterization to Train Compact Convolutional Networks
+Shuxuan Guo, Jose M. Alvarez, Mathieu Salzmann
+We introduce an approach to training a given compact network. To this end, we leverage over-parameterization, which typically improves both neural network optimization and generalization. Specifically, we propose to expand each linear layer of the compact network into multiple consecutive linear layers, without adding any nonlinearity. As such, the resulting expanded network, or ExpandNet, can be contracted back to the compact one algebraically at inference. In particular, we introduce two convolutional expansion strategies and demonstrate their benefits on several tasks, including image classification, object detection, and semantic segmentation. As evidenced by our experiments, our approach outperforms both training the compact network from scratch and performing knowledge distillation from a teacher. Furthermore, our linear over-parameterization empirically reduces gradient confusion during training and improves the network generalization.
 
 ### Other papers (to be organized)
 FedSplit: an algorithmic framework for fast federated optimization
